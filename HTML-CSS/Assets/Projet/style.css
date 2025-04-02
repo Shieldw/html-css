@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration: none;
+}
+main{
+    max-width: 1500px;
+    border: 1px solid rgba(250, 125, 42, 0.538);
+    margin: 0 auto;
+}
+.background_marron{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #29f637;
+}
+
+#left{
+    margin-right: 60%;
+    margin-left: 3%;
+    margin-bottom: -50%;
+    max-width: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.538);
+    font-size:250%
+}
+
+#right{
+    margin-left: 45%;
+    margin-top:-90%;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:
+    display: flex;
+    background-size::content;
+
+}
+h3{
+    text-align: center;
+    font-family: 18px;
+    color: #296df6;
+}
+section{
+    margin-top: 3%;
+}
+#about_me{
+    text-align: left;
+    font-family: 18px;
+}
+
+.titre{
+    justify-content: right;
+    align-items: center;
+    margin-top: 0%;
+}
+h1{
+    color: #a31010;
+    font-size: 4rem;
+    font-family: "Oswald", serif;
+    margin: auto;
+}
+h2{
+    color: #a31010;
+    font-size:30px;
+    font-family: "Oswald", serif;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    background-color:aquamarine;
+    position: fixed;
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu li a{
+    color: #ffffff;
+    font-size: 2rem;
+}
+.menu li a:hover{
+    color:gold
+}
+
+.image img{
+    height: 650px;
+    margin: auto;
+    margin-top: 3%;
+    width: 500px;
+    border-radius: 30%;
+    zoom: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#competences_pro{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section_title{
+    width: 100%;
+    margin-bottom: 5%;
+    
+}
+.emploi1, .emploi2, .emploi3, .emploi4, .emploi5, .emploi6, .emploi7, .emploi8, .emploi9{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    margin-top: 0%;
+    margin-left: 25%;
+    border-left: 1px solid #296df6;
+}
+#competences_acquises{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section_title{
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+}
+.section_title{
+    width: 100%;
+}
+.langages{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #29f637;
+}
+figure{
+    background-color: #ffffff;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 1% 2%;
+}
+figure img{
+    width: 35%;
+}
+footer{
+    background-color: #296df6;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.reseau, .copyright, .mentions-legales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reseau a{
+    font-size: 2.2rem;
+    margin: 2%;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+   .menu{
+    flex-direction: column;
+   }
+   #experiences{
+    flex-direction: column;
+   }
+   .emploi{
+    width: 100%;
+   }
+   .langages{
+    flex-direction: column;
+    justify-content: center;
+   }
+   figure{
+    width: 100%;
+   }
+}
